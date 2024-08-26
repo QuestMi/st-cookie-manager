@@ -6,12 +6,12 @@ js_npm_install_marker = st_cookie_manager/node_modules/.package-lock.json
 
 build: st_cookie_manager/build/index.html sdist wheels
 
-sdist: dist/st-cookies-manager-$(version).tar.gz
+sdist: dist/st-cookie-manager-$(version).tar.gz
 wheels: dist/st_cookie_manager-$(version)-py3-none-any.whl
 
 js: st_cookie_manager/build/index.html
 
-dist/st-cookies-manager-$(version).tar.gz: $(python_sources) js
+dist/st-cookie-manager-$(version).tar.gz: $(python_sources) js
 	poetry build -f sdist
 
 dist/st_cookie_manager-$(version)-py3-none-any.whl: $(python_sources) js

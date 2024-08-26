@@ -1,6 +1,6 @@
 [tool.poetry]
-name = "st-cookies-manager"
-version = "0.1.0"
+name = "st-cookie-manager"
+version = "0.2.0"
 description = "Access and save cookies from Streamlit"
 authors = ["xiaoqinglin <xiaoqinglin2018@gmail.com>"]
 license = "Apache-2.0"
